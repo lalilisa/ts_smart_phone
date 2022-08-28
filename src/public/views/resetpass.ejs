@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Aroma Shop - Login</title>
+	<link rel="icon" href="../img/Fevicon.png" type="image/png">
+ 
+	<link rel="stylesheet" href="../vendors/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="../vendors/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="../vendors/themify-icons/themify-icons.css">
+	<link rel="stylesheet" href="../vendors/linericon/style.css">
+	<link rel="stylesheet" href="../vendors/owl-carousel/owl.theme.default.min.css">
+	<link rel="stylesheet" href="../vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="../vendors/nice-select/nice-select.css">
+	<link rel="stylesheet" href="../vendors/nouislider/nouislider.min.css">
+  
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<!--================ Start Header Menu Area =================-->
+	<header class="header_area">
+		<div class="main_menu">
+		  <nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container">
+			  <a class="navbar-brand logo_h" href="/"><img src="../img/logo.png" alt=""></a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+				<ul class="nav navbar-nav menu_nav ml-auto mr-auto">
+				  <li class="nav-item active"><a class="nav-link" href="/">Trang chủ</a></li>
+				  <li class="nav-item submenu dropdown">
+					<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+					  aria-expanded="false">Shop</a>
+					<ul class="dropdown-menu">
+					  <li class="nav-item"><a class="nav-link" href="/product">Sản phẩm</a></li>
+					  <li class="nav-item"><a class="nav-link" href="/cart">Giỏ hàng</a></li>
+					</ul>
+								</li>
+								<li class="nav-item submenu dropdown">
+					<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+					  aria-expanded="false">Pages</a>
+					<ul class="dropdown-menu">
+					  <li class="nav-item"><a class="nav-link" href="login">Đăng nhập</a></li>
+					  <li class="nav-item"><a class="nav-link" href="register">Đăng kí</a></li>
+					</ul>
+				  </li>
+				  <li class="nav-item"><a class="nav-link" href="contact.html">Hỗ trợ</a></li>
+				</ul>
+	
+				<ul class="nav-shop">
+				  <li class="nav-item"><button><i class="ti-search"></i></button></li>
+				  <li class="nav-item"><button><i class="ti-shopping-cart"></i><span class="nav-shop__circle">3</span></button> </li>
+				  <li class="nav-item" id="display_login">
+					  <!-- <a class="button button-header" href="#"><%=username%></a> -->
+				 
+					
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		  </nav>
+		</div>
+	  </header>
+  
+  <!--================Login Box Area =================-->
+	<section class="login_box_area section-margin">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="login_box_img">
+						<div class="hover">
+							<h4>Bạn chưa có mật khẩu ngay?</h4>
+							<p>Đăng kí ngay để nhận những ưu đãi tốt nhất của cửa hàng</p>
+							<a class="button button-account" href="/register">Đăng ký</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="login_form_inner">
+						<h3>Đặt lại mật khẩu</h3>
+						<p id="status-request"></p>
+						<form class="row login_form"  id="contactForm" >
+							<div class="col-md-12 form-group">
+								<input type="text" class="form-control" id="email" name="email" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'">
+							</div>
+
+							
+						
+						</form>
+						<div class="col-md-12 form-group">
+							<button type="submit" id="resetpass" value="submit" class="button button-login w-100" >Reset Password</button>
+					
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Login Box Area =================-->
+
+
+
+
+	<!--================ End footer Area  =================-->
+
+
+
+	<script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+	<script src="../vendors/bootstrap/bootstrap.bundle.min.js"></script>
+	<script src="../vendors/skrollr.min.js"></script>
+	<script src="../vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="../vendors/nice-select/jquery.nice-select.min.js"></script>
+	<script src="../vendors/jquery.ajaxchimp.min.js"></script>
+	<script src="../vendors/mail-script.js"></script>
+	<script src="../js/main.js"></script>
+	<script src="../js/resetpass.js"></script>
+</body>
+</html>
